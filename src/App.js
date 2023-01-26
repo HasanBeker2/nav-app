@@ -13,9 +13,9 @@ function App() {
         <Link to="/contact" className="nav-item">Contact</Link>
       </nav>
       <Routes>
-        <Route path="/" element={<Homepage />} />
-        <Route path="/about-me" element={<AboutMe />} />
-        <Route path="/contact" element={<Contact />} />
+        <Route path="/" element={<Homepage />}></Route> 
+        <Route path="/about-me" element={<AboutMe />}></Route> 
+        <Route path="/contact" element={<Contact />} ></Route>
       </Routes>
     </div >
   );
